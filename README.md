@@ -1,0 +1,3 @@
+# ts-study
+
+npm start
