@@ -20,7 +20,7 @@ module.exports = {
     },
     devServer: {
         // webpack-dev-serverの公開フォルダ
-        contentBase: path.join(__dirname,'dist')
+        static: path.join(__dirname,'dist')
     },
     // モジュールに適用するルールの設定（ここではローダーの設定を行う事が多い）
     module: {
